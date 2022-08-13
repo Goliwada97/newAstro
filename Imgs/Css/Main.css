@@ -1,0 +1,3111 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Oleo+Script+Swash+Caps&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.bg-lightyellow {
+    background-color: #ffdf80;
+    color: black;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.body {
+    background-color: black;
+    color: white;
+}
+
+.center_section {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container_center {
+    width: 1440px;
+}
+
+.ulyellow {
+    /* border: 3px solid red; */
+    padding: 0.8rem;
+    list-style-position: inside;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+
+/* header start */
+.logo_img img {
+    padding: 2.1rem;
+    object-fit: cover;
+    width: 360px;
+}
+
+.logo_img {
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    /* flex-wrap: wrap; */
+    list-style-type: none;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+}
+
+.naviteam {
+    border-right: 1px solid #000;
+    border-left: none;
+    text-align: center;
+    width: 25%;
+    padding: 0.7rem 0;
+    /* font-size: 20px; */
+    font-family: 'Cinzel', serif;
+}
+
+.nonline {
+    /* border-right: 1px solid #000; */
+    border-right: hidden;
+}
+
+/* header end */
+
+
+/* -----------------------------------------------------------main start */
+
+
+/* IMAGE START */
+
+
+.img_slider {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    /* height: 650px; */
+    overflow: auto;
+    flex-wrap: wrap;
+}
+
+
+.img_slider img {
+    width: 335px;
+    height: 32rem;
+    border-radius: 30px;
+    border: 1px solid #ffdf80;
+    margin: 2.5rem 0.5rem;
+    object-fit: cover;
+    object-position: 80% 100%;
+    overflow: hidden;
+
+}
+
+.imgshow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+.image8 {
+    padding: 15px;
+    margin-top: 15rem;
+
+}
+
+.imgshow img {
+    border-radius: 30px;
+    border: 1px solid black;
+    width: 100%;
+    /* height: 365px; */
+    object-fit: cover;
+    object-position: 80% 100%;
+}
+
+
+/* IMAGE END */
+
+
+/* FEATURE START */
+
+
+.detailiteam {
+    padding: 2rem;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 900;
+    font-size: 30px;
+
+}
+
+.featuredetail {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 300;
+}
+
+.detail {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px;
+
+}
+
+/* FEATURE START */
+
+
+/* EVENT START */
+
+
+.eventheader p {
+    text-align: center;
+    margin-bottom: 1rem;
+    padding-top: 3rem;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.eventitle p {
+    padding: 2rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+/* IMAGE EVENT ONE START */
+
+
+.event {
+    padding: 0rem 7rem;
+}
+
+.eventimg {
+    display: flex;
+    overflow: auto;
+    justify-content: space-between;
+    margin: 6rem;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+
+}
+
+.img9 img {
+    width: 355px;
+    height: auto;
+    object-fit: cover;
+    /* object-position: 80% 100%; */
+    /* overflow: auto; */
+    border-radius: 30px;
+    border: 1px solid #ffdf80;
+
+}
+
+.eventwedding {
+    padding-left: 1.3rem;
+    text-align: center;
+    /* border: 1px solid red; */
+    letter-spacing: 1px;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.thevent {
+    text-align: right;
+    padding: 1rem;
+    word-spacing: 2px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    width: 100%;
+}
+
+/* IMAGE EVENT ONE END */
+/* IMAGE EVENT SECOND START */
+
+.eventimg2 {
+    display: flex;
+    overflow: auto;
+    justify-content: space-between;
+    margin: 6rem;
+    /* margin: 1rem 0; */
+    flex-direction: row;
+
+}
+
+.img10 img {
+    width: 355px;
+    height: auto;
+    object-fit: cover;
+    /* object-position: 80% 100%; */
+    /* overflow: auto; */
+    border-radius: 30px;
+    border: 1px solid #ffdf80;
+
+}
+
+.eventwedding2 {
+    padding-right: 1.3rem;
+    text-align: center;
+    /* border: 1px solid red; */
+    letter-spacing: 1px;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.thevent2 {
+    text-align: left;
+    padding: 1rem;
+    word-spacing: 2px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+/* IMAGE EVENT SECOND END */
+/* IMAGE EVENT THIRD START */
+
+.eventimg3 {
+    display: flex;
+    overflow: auto;
+    justify-content: space-between;
+    margin: 6rem;
+    /* margin: 1rem 0; */
+    flex-direction: row;
+
+}
+
+.img11 img {
+    width: 355px;
+    height: auto;
+    object-fit: cover;
+    /* object-position: 80% 100%; */
+    /* overflow: auto; */
+    border-radius: 30px;
+    border: 1px solid #ffdf80;
+
+}
+
+.eventwedding3 {
+    padding-left: 1.3rem;
+    text-align: center;
+    /* border: 1px solid red; */
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.thevent3 {
+    text-align: right;
+    padding: 1rem;
+    word-spacing: 2px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+/* IMAGE EVENT THIRD END */
+
+/* ---------------------------------------------------------------EVENT END */
+
+/* FORM START*/
+
+.readyh1 {
+    color: #000;
+    background-color: #ffdf80;
+    text-align: center;
+    padding: 0.7rem 0;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+
+.mainform-1 {
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    padding: 49px 49px;
+    /* flex-wrap: wrap; */
+
+}
+
+.heading-1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000
+}
+
+.heading-1 p {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    margin: 1.5rem 0;
+
+}
+
+
+.form-1 {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 30px;
+}
+
+.input-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+.input-1 label {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    text-align: left;
+    margin: 8px 8px;
+}
+
+.forminput-1 {
+    background: rgba(221, 191, 128, 0.5);
+    border: none;
+    border-radius: 30px;
+    height: 31px;
+    padding: 0 15px;
+}
+
+.maindate-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.datename-1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    text-align: left;
+    margin: 10px 20px;
+}
+
+.dates-1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 0;
+
+}
+
+.date-01 {
+    background: rgba(221, 191, 128, 0.5);
+    border: none;
+    border-radius: 30px;
+    height: 31px;
+    padding: 0 15px;
+    width: 100px;
+    margin: 2px;
+    text-align: center;
+}
+
+.checkbox-1 {
+    justify-content: space-between;
+    display: flex;
+    padding-right: 32px;
+    padding-top: 32px;
+}
+
+.checkbox-01 {
+    height: 31px;
+    width: 31px;
+    background: rgba(221, 191, 128, 0.5);
+    border-radius: 15px;
+}
+
+.checkbox-02 {
+    color: #000;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    margin: 4px 0.8rem;
+}
+
+.titleinfo-1 {
+    /* background-color: #000; */
+    text-align: center;
+}
+
+#titleinfo-01 {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+#submit-1 {
+    border: none;
+    width: 177px;
+    height: 31px;
+    background: rgba(221, 191, 128, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.50);
+    border-radius: 30px;
+    margin: 1.5rem;
+}
+
+
+/* ----------------------------------------------------------END FORM---------------------------------------------- */
+
+
+
+.quet {
+    text-align: center;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+    font-size: 1.8em;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.questdetail {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 5rem;
+    padding: 0 1rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+/* --------------------------------------------ABOUT US CSS START -----------------------------------*/
+
+/* IMG START */
+.imgpraga {
+    text-align: center;
+    padding: 2em;
+    word-spacing: 2px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 23px;
+}
+
+
+/* IMG END */
+
+/* ASTRO START */
+
+.celeb {
+    padding: 1em;
+}
+
+.celeb1 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.celeb2 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 0.3em;
+}
+
+.celeb3 {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 1.3rem;
+}
+
+.celeb4 {
+    text-align: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 1.3rem;
+}
+
+/* ASTRO END */
+
+/* INDOOR START */
+
+.indoorh2 {
+    text-align: center;
+    padding-top: 2.5rem;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.indoordetail {
+    text-align: center;
+    padding: 1.3em;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.indoordetail1 {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+}
+
+
+.img1 {
+    margin-bottom: 30px;
+    padding: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: nowrap;
+    /* overflow: hidden; */
+}
+
+.img1 img {
+    /* display: block; */
+    border-radius: 1.9rem;
+    border: 1px solid #ffff99;
+    margin: 1rem 0.4rem;
+    height: 420px;
+    width: 300px;
+    /* overflow: hidden; */
+    object-fit: cover;
+    /* object-position: 80% 100%; */
+}
+
+/* INDOOR END */
+/* OUTDOOR START */
+.outdoorh2 {
+    text-align: center;
+    padding-top: 2.5rem;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+
+.outdoordetail {
+    text-align: center;
+    padding: 1.3em;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.outdoordetail01 {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.img2 {
+    margin-bottom: 30px;
+    padding: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: nowrap;
+    /* overflow: hidden; */
+
+
+}
+
+.img2 img {
+    /* display: block; */
+    border-radius: 1.8rem;
+    border: 1px solid black;
+    margin: 1rem 0.4rem;
+    height: 420px;
+    width: 300px;
+    /* overflow: hidden; */
+    object-fit: cover;
+    /* object-position: 80% 100%; */
+}
+
+
+/* OUTDOOR END */
+/* KITCHEN START */
+
+.ktdoorh2 {
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+.ktdoordetail {
+    text-align: center;
+    padding: 1.3em;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.ktdoordetail1 {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.img3 {
+    margin-bottom: 30px;
+    padding: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.img3 img {
+    /* display: block; */
+    border-radius: 1.8rem;
+    border: 1px solid #ffff99;
+    margin: 10px 3px;
+    height: 420px;
+    width: 431px;
+    /* overflow: hidden; */
+    object-fit: cover;
+    /* object-position: 80% 100%; */
+}
+
+/* KITCHEN END */
+/* DRESSING ROOM START  */
+
+
+.drdoorh2 {
+    text-align: center;
+    padding-top: 2.5rem;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+.drdoordetail {
+    text-align: center;
+    padding: 1.3em;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.drdoordetail1 {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.img4 {
+    margin-bottom: 30px;
+    padding: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+}
+
+.img4 img {
+    /* display: block; */
+    border-radius: 1.8rem;
+    border: 1px solid black;
+    margin: 10px 3px;
+    height: 420px;
+    width: 431px;
+    /* overflow: hidden; */
+    object-fit: cover;
+    /* object-position: 80% 100%; */
+}
+
+/* DRESSING ROOM END  */
+/* OTHER FEATURES START */
+
+.otdoorh2 {
+    text-align: center;
+    padding-top: 2.5rem;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+.otdoordetail {
+    text-align: center;
+    padding: 1.3em;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.otdoordetail1 {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.img5 {
+    margin-bottom: 30px;
+    padding: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: nowrap;
+    /* overflow: hidden; */
+
+}
+
+.img5 img {
+    /* display: block; */
+    border-radius: 1.8rem;
+    border: 1px solid #ffff99;
+    margin: 10px 3px;
+    height: 420px;
+    width: 300px;
+    /* overflow: hidden; */
+    object-fit: cover;
+    /* object-position: 80% 100%; */
+}
+
+
+/* OTHER FEATURES END */
+
+
+/* ----------------------------------------------------------------ABOUT US END-------------------------------------------- */
+
+
+/*------------------------------------------------------------- SERVICES START--------------------------------------------- */
+
+
+.serdetail {
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 2rem;
+    text-align: center;
+    word-spacing: 0.2rem;
+}
+
+.serdetail01 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 25px;
+    font-style: italic;
+    padding: 0.3rem auto;
+    text-align: center;
+    word-spacing: 1px;
+}
+
+.serdetail02 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 1.2rem;
+    text-align: center;
+    word-spacing: 2px;
+}
+
+
+
+/* SERVICESIMG_START */
+/* LEFT IMG LAYOUT START */
+
+
+.serimgdetail {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    overflow: auto;
+    height: 720px;
+    width: 100%;
+}
+
+.imgdetails {
+    position: relative;
+    padding: 2rem;
+
+}
+
+.imgdetails2 {
+    width: 443px;
+    height: 296px;
+    border-radius: 1.9rem;
+    border: 1px solid#ffff99;
+
+}
+
+.imgdetails1 {
+    position: relative;
+    position: absolute;
+    width: 443px;
+    height: 296px;
+    border-radius: 1.9rem;
+    border: 1px solid#ffff99;
+    margin: 8.5rem;
+
+}
+
+.imgpara {
+    text-align: center;
+    height: 420px;
+    width: 560px;
+    padding: 0 2em;
+}
+
+.imgpara1 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 1px;
+}
+
+#imgpara01 {
+    margin-top: 20px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-align: right;
+    /* padding: 0 2rem; */
+}
+
+
+
+.imgpara h5 {
+    background-color: #ffff99;
+    color: black;
+    display: inline-block;
+    padding: 0.6rem 0;
+    border-radius: 1.9rem;
+    border: 1px solid#ffff99;
+    width: 420px;
+    height: 47px;
+    margin: 3rem 0;
+}
+
+#astroCelebrations {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px
+}
+
+
+/* LEFT IMG LAYOUT END */
+/* SERVICESIMG_END */
+
+/* BUSINESS START */
+
+
+
+.serimgdetail100 {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    overflow: auto;
+    height: 720px;
+    width: 100%;
+    flex-direction: row-reverse;
+
+}
+
+.imgdetails100 {
+    position: relative;
+    /* padding: 4rem; */
+    padding-right: 4em;
+
+}
+
+.imgdetails0002100 {
+    width: 443px;
+    height: 296px;
+    border-radius: 1.9rem;
+    border: 1px solid#ffff99;
+    /* margin-left: 11em; */
+
+}
+
+.imgdetails0001100 {
+    position: relative;
+    position: absolute;
+    width: 443px;
+    height: 296px;
+    border-radius: 1.9rem;
+    border: 1px solid#ffff99;
+    margin: 8.5rem;
+
+}
+
+.imgpara100 {
+    text-align: center;
+    height: 420px;
+    width: 560px;
+    padding: 0 2em;
+}
+
+.imgpara1100 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 1px;
+}
+
+#imgpara01100 {
+    margin-top: 20px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-align: left;
+    /* padding: 0 2rem; */
+}
+
+
+
+.imgpara100 h5 {
+    background-color: #ffff99;
+    color: black;
+    display: inline-block;
+    padding: 0.6rem 0;
+    border-radius: 1.9rem;
+    border: 1px solid#ffff99;
+    width: 420px;
+    height: 47px;
+    margin: 3rem 0;
+}
+
+#astroCelebrations100 {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px
+}
+
+
+
+
+/* BUSINESS END */
+
+/* PARTY START */
+
+
+.partyimgdetail {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    overflow: auto;
+    height: 720px;
+    width: 100%;
+}
+
+.partyimgdetails {
+    position: relative;
+    padding: 2rem;
+
+}
+
+.imgdetails001 {
+    /* position: relative; */
+    width: 443px;
+    height: 296px;
+    border-radius: 1.9rem;
+    border: 1px solid#ffff99;
+
+}
+
+.imgdetails002 {
+    position: relative;
+    position: absolute;
+    width: 443px;
+    height: 296px;
+    border-radius: 1.9rem;
+    border: 1px solid#ffff99;
+    margin: 9rem;
+}
+
+.partyimgpara {
+    text-align: center;
+    height: 620px;
+    width: 560px;
+    padding: 0 2em;
+}
+
+.partyimgpara1 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#partyimgpara2 {
+    text-align: right;
+    margin-top: 20px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    padding: 0 2rem;
+}
+
+
+
+.partyimgpara h5 {
+    background-color: #ffff99;
+    /* color: black; */
+    display: inline-block;
+    padding: 0.6rem 0;
+    border-radius: 1.9rem;
+    border: 1px solid#ffff99;
+    width: 420px;
+    height: 47px;
+    margin: 3rem 0;
+
+}
+
+#astroCelebrations1 {
+    text-decoration: none;
+    color: black;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+/* PARTY END */
+/* OTHER START */
+
+
+.serimgdetail-u {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    overflow: auto;
+    height: 720px;
+    width: 100%;
+    flex-direction: row-reverse;
+
+}
+
+.imgdetails-u {
+    position: relative;
+    /* padding: 4rem; */
+    padding-right: 4em;
+
+}
+
+.imgdetails0-u {
+    width: 443px;
+    height: 296px;
+    border-radius: 1.9rem;
+    border: 1px solid#ffff99;
+    /* margin-left: 11em; */
+
+}
+
+.imgdetails1-u {
+    position: relative;
+    position: absolute;
+    width: 443px;
+    height: 296px;
+    border-radius: 1.9rem;
+    border: 1px solid#ffff99;
+    margin: 8.5rem;
+
+}
+
+.imgpara-u {
+    text-align: center;
+    height: 420px;
+    width: 560px;
+    padding: 0 2em;
+}
+
+.imgpara1-u {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    letter-spacing: 1px;
+}
+
+#imgpara1-u {
+    margin-top: 20px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-align: left;
+    /* padding: 0 2rem; */
+}
+
+
+
+.imgpara-u h5 {
+    background-color: #ffff99;
+    color: black;
+    display: inline-block;
+    padding: 0.6rem 0;
+    border-radius: 1.9rem;
+    border: 1px solid#ffff99;
+    width: 420px;
+    height: 47px;
+    margin: 3rem 0;
+}
+
+#astroCelebrations-u {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px
+}
+
+
+/* OTHER END */
+/* SERVICES END */
+/* -------------------------------------------------------------FAQS DETAIS START----------------------------------------- */
+
+
+/* START FAQSIMAGES */
+.fqasimg {
+    position: relative;
+    margin: 2em 0;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.fqasimg1 {
+    object-fit: cover;
+    object-position: 90% 40%;
+    width: 100%;
+    height: 297px;
+}
+
+.fqasimg2 {
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 50%;
+    width: 100%;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    /* font-size: 3rem; */
+    word-spacing: 3px;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 34px;
+}
+
+
+/* END FAQSIMAGES */
+/* START DETAIL */
+
+
+.detailfaqs {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.detailfaqs div {
+    width: 70%;
+    padding: 1.8rem;
+    /* font-weight: 800; */
+
+}
+
+.detailfaqs h3 {
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    padding: 0.2rem;
+}
+
+.detailfaqs p {
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+
+
+/* END DETAIL */
+/*------------------------------------------------ FAQS DETAIS END-------------------------------------------------------- */
+/* BOOK START */
+
+.mainform2 {
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+    padding: 49px 49px;
+    flex-wrap: wrap;
+
+}
+
+.heading {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.heading p {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #fff;
+    margin: 1rem 0;
+}
+
+
+.form2 {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 30px;
+
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+.input label {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    text-align: left;
+    margin: 8px 8px;
+}
+
+.forminput {
+    background: rgba(221, 191, 128, 0.5);
+    border: none;
+    border-radius: 30px;
+    height: 31px;
+    padding: 0 15px;
+}
+
+.maindate002 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.datename {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    text-align: left;
+    margin: 10px 20px;
+}
+
+.dates {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 0;
+
+}
+
+.date010 {
+    background: rgba(221, 191, 128, 0.5);
+    border: none;
+    border-radius: 30px;
+    height: 31px;
+    padding: 0 15px;
+    width: 100px;
+    margin: 2px;
+    text-align: center;
+}
+
+.checkbox {
+    justify-content: space-between;
+    display: flex;
+    padding-right: 32px;
+    padding-top: 32px;
+}
+
+.checkbox010 {
+    height: 31px;
+    width: 31px;
+    background: rgba(221, 191, 128, 0.5);
+    border-radius: 15px;
+}
+
+.checkbox020 {
+    color: #000;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    margin: 4px 0.8rem;
+}
+
+.titleinfo {
+    /* background-color: #000; */
+    text-align: center;
+}
+
+#titleinfo {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+#submit1 {
+    border: none;
+    width: 177px;
+    height: 31px;
+    background: rgba(221, 191, 128, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.47);
+    border-radius: 30px;
+    margin: 1.5rem 0;
+}
+
+/* BOOK END */
+/* FOOTER START  */
+
+.container {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: 40% 1fr 1fr;
+    padding-top: 2rem;
+    justify-content: space-around;
+    overflow: hidden;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 1rem;
+}
+
+
+
+
+/* .container {
+    display: block;
+    display: flex;
+    padding-top: 2rem;
+    justify-content: space-around;
+    overflow: hidden;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    align-items: center;
+}
+
+.container div {
+    text-decoration: none;
+    color: black;
+    font-weight: 200;
+    font-size: 1rem;
+    text-align: center;
+
+} */
+
+.astro {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    align-content: center;
+
+}
+
+/* ------------------------------------------------------FOOTTER END-------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------media Queries -------------------------------------------------------*/
+/* ----------------------------------------desktops & laptops-------------------------------------------------- */
+
+@media(min-width:1024px) and (max-width:1440px) {
+    /* NAVBAR START */
+
+
+    .naviteam {
+        font-size: 20px;
+    }
+
+    /* NAVBAR END */
+    /* IMAGE SLIDER  START*/
+
+    .img_slider img {
+        width: 490px;
+        margin: 2.5rem 0.5rem;
+        object-fit: cover;
+        object-position: 80% 100%;
+
+
+    }
+
+    .imgshow {
+        flex-wrap: nowrap;
+    }
+
+    .image8 {
+        margin-top: 12rem;
+        margin-left: 1rem;
+        padding: 0;
+    }
+
+
+    /* IMAGE STLIDER END */
+    /* EVENT START */
+
+
+    .event {
+        padding: 1rem 3rem;
+
+    }
+
+    .eventimg {
+        margin: 1.5rem 1.5rem;
+        flex-wrap: nowrap;
+    }
+
+    /* --------------------------------EVENT TWO------------------------------- */
+    .event2 {
+        padding: 1rem 3rem;
+
+    }
+
+    .eventimg2 {
+        margin: 1.5rem 1.5rem;
+        flex-wrap: nowrap;
+    }
+
+    /* --------------------------EVENT THIRD-------------------------------------- */
+
+    .event3 {
+        padding: 1rem 3rem;
+
+    }
+
+    .eventimg3 {
+        margin: 1.5rem 1.5rem;
+        flex-wrap: nowrap;
+    }
+
+    /* EVENT END */
+    /* FORM START */
+
+    .mainform-1 {
+        flex-wrap: nowrap;
+    }
+
+    .heading-1 {
+        width: 100%;
+        margin: 25px 0;
+    }
+
+    .form-1 {
+        margin: 1rem;
+    }
+
+
+    /* FORM END */
+
+    /* -----------------------------------ABOUT US START-------------------------------------------------------- */
+
+
+    /* -------------------------INDOOR START----------------------------- */
+
+    /* NOTHING HERE */
+
+    /*---------------------- INDOOR START ---------------------------------------*/
+
+    /* -----------------------------------ABOUT US  END -------------------------------------------------------- */
+
+
+    /*---------------- SERVICES START--------------------------------------------- */
+
+    /* -----------------------------DETAIL START */
+
+    /* .detailstart {
+        padding: 4px;
+    }
+
+    .serdetail {
+        font-size: 16px;
+    }
+
+    .serdetail01,
+    .serdetail02 {
+        font-size: 11px;
+    } */
+
+    /* ----------------------------------DETAIL END */
+
+    /* SERVICES IMAGES START */
+    /* ========================WEDDING START ==================*/
+
+    .serimgdetail {
+        height: 605px;
+        flex-wrap: nowrap;
+    }
+
+    .imgpara {
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .imgpara1 {
+        margin-top: 1em;
+    }
+
+
+    #imgpara01,
+    #astroCelebrations {
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+        text-align: right;
+        margin-top: 0.8em;
+        line-height: 25px;
+
+    }
+
+
+    .imgpara h5 {
+        width: 275px;
+        margin: 0.8em 0;
+    }
+
+
+    .imgdetails2 {
+        width: 405px;
+        height: 258px;
+        margin-right: 9em;
+
+    }
+
+
+    .imgdetails1 {
+        width: 405px;
+        height: 258px;
+        margin-top: 9em;
+        margin-left: 9em;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    /* ======================WEDDING END============== */
+
+
+    /* ========================BUSINESS START ==================*/
+
+
+    .serimgdetail100 {
+        height: 605px;
+        flex-wrap: nowrap;
+    }
+
+    .imgpara100 {
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .imgpara1100 {
+        margin-top: 1em;
+    }
+
+
+    #imgpara01100,
+    #astroCelebrations100 {
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+        text-align: left;
+        margin-top: 0.8em;
+        line-height: 25px;
+
+    }
+
+
+    .imgpara100 h5 {
+        width: 275px;
+        margin: 0.8em 0;
+    }
+
+
+    .imgdetails0002100 {
+        width: 405px;
+        height: 258px;
+        margin-right: 9em;
+
+    }
+
+
+    .imgdetails0001100 {
+        width: 405px;
+        height: 258px;
+        margin-top: 9em;
+        margin-left: 9em;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+
+    /* ======================BUSINESS END============== */
+    /* ========================PARTIES START ==================*/
+
+    .partyimgdetail {
+        height: 605px;
+        flex-wrap: nowrap;
+    }
+
+    .partyimgpara {
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .partyimgpara1 {
+        margin-top: 1em;
+    }
+
+
+    #partyimgpara2,
+    #astroCelebrations1 {
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+        text-align: right;
+        margin-top: 0.8em;
+        line-height: 25px;
+
+    }
+
+
+    .partyimgpara h5 {
+        width: 275px;
+        margin: 0.8em 0;
+    }
+
+
+    .imgdetails001 {
+        width: 405px;
+        height: 258px;
+        margin-right: 9em;
+
+    }
+
+
+    .imgdetails002 {
+        width: 405px;
+        height: 258px;
+        margin-top: 9em;
+        margin-left: 9em;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    /* ======================PARTIES END============== */
+    /* ========================OTHER START ==================*/
+
+    .serimgdetail-u {
+        height: 605px;
+        flex-wrap: nowrap;
+    }
+
+    .imgpara-u {
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .imgpara1-u {
+        margin-top: 1em;
+    }
+
+
+    #imgpara1-u,
+    #astroCelebrations-u {
+        width: 100%;
+        height: auto;
+        font-size: 18px;
+        text-align: left;
+        margin-top: 0.8em;
+        line-height: 25px;
+
+    }
+
+
+    .imgpara-u h5 {
+        width: 275px;
+        margin: 0.8em 0;
+    }
+
+
+    .imgdetails0-u {
+        width: 405px;
+        height: 258px;
+        margin-right: 9em;
+
+    }
+
+
+    .imgdetails1-u {
+        width: 405px;
+        height: 258px;
+        margin-top: 9em;
+        margin-left: 9em;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+
+    /* ======================OTHER END============== */
+
+    /* SERVICES IMAGES START */
+    /*----------------------------- SERVICES END---------------------------------- */
+
+
+
+    /* ---------------------------------------FQAS START----------------------------------------- */
+
+    .fqasimg2 {
+        font-size: 30px;
+    }
+
+    /* ========================================================== */
+
+    .detailfaqs h3 {
+        font-size: 22px;
+        font-weight: 900;
+    }
+
+    .detailfaqs p {
+        font-size: 16px;
+    }
+
+
+
+    /* -----------------------------------------FQAS END------------------------------------------*/
+
+    /* ===================FORM START */
+
+    .mainform2 {
+        flex-wrap: nowrap;
+    }
+
+    .heading {
+        width: 100%;
+        margin: 25px 0;
+    }
+
+    .form2 {
+        margin: 1rem;
+    }
+
+    /* ==================FORM END */
+
+    /* ==============================================FOOTER START =======================================*/
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 18px;
+    }
+
+    /* ====================================================FOOTER ENDS============================== */
+
+
+}
+
+
+
+
+
+
+
+/* -*********************************************--ipad----********************************************/
+
+@media(min-width:768px) and (max-width:1024px) {
+
+    /* NAVBAR START */
+
+
+    .naviteam {
+        font-size: 18px;
+    }
+
+    /* NAVBAR END */
+    /* IMAGE SLIDER  START*/
+
+    .img_slider img {
+        width: 40%;
+        height: 28rem;
+        margin: 1rem;
+        object-fit: cover;
+        object-position: 80% 75%;
+
+    }
+
+    .image8 {
+        /* margin-top: 12rem; */
+        margin: 1rem;
+        padding: 0;
+    }
+
+
+    /* IMAGE STLIDER END */
+    /* EVENT START */
+
+
+    .event {
+        padding: 0.8rem 0.8rem;
+
+    }
+
+    .eventimg {
+        margin: 1rem 1rem;
+        flex-wrap: nowrap;
+    }
+
+    /* ---------------------SECOND EVENT--------------------------------------- */
+    .event2 {
+        padding: 0.8rem 0.8rem;
+
+    }
+
+    .eventimg2 {
+        margin: 1rem 1rem;
+        flex-wrap: nowrap;
+    }
+
+    /* ---------------------------THIRD EVENT------------------------------------------- */
+
+    .event3 {
+        padding: 0.8rem 0.8rem;
+
+    }
+
+    .eventimg3 {
+        margin: 1rem 1rem;
+        flex-wrap: nowrap;
+    }
+
+
+    /* EVENT END */
+    /* FORM START */
+
+    .mainform-1 {
+        flex-wrap: nowrap;
+    }
+
+    .heading-1 {
+        width: 95%;
+        margin: 25px 0;
+    }
+
+    .form-1 {
+        margin-right: 0.5rem;
+    }
+
+
+
+    /* FORM END */
+
+    /* -----------------------------------ABOUT US START-------------------------------------------------------- */
+
+    /* IMG START */
+
+    .imgpraga {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+
+    .celeb3,
+    .celeb4 {
+        display: block;
+        margin: 0.3rem;
+        line-height: 28px;
+    }
+
+
+    /* IMG END */
+
+
+
+    /* -------------------------INDOOR START----------------------------- */
+    .img1 {
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+
+
+    /*---------------------- INDOOR START ---------------------------------------*/
+
+
+    /* -------------------------OUTDOOR START----------------------------- */
+    .img2 {
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+
+
+    /*---------------------- OUTDOOR START ---------------------------------------*/
+
+
+
+
+    /* -------------------------KITCHEN START----------------------------- */
+    .img3 {
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+
+
+    /*---------------------- KITCHEN START ---------------------------------------*/
+
+
+    /* -------------------------DRESSING ROOM----------------------------- */
+    .img4 {
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+
+
+    /*---------------------- DRESSING ROOMS ---------------------------------------*/
+
+
+    /* -------------------------OTHER FEATURES----------------------------- */
+    .img5 {
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+
+    /*---------------------- OTHER FEATURES ---------------------------------------*/
+
+    /* -----------------------------------ABOUT US  END -------------------------------------------------------- */
+
+    /*---------------- SERVICES START--------------------------------------------- */
+
+    /* -----------------------------DETAIL START */
+
+    .detailstart {
+        padding: 4px;
+    }
+
+    .serdetail {
+        font-size: 16px;
+    }
+
+    .serdetail01,
+    .serdetail02 {
+        font-size: 11px;
+    }
+
+    /* ----------------------------------DETAIL END */
+
+    /* SERVICES IMAGES START */
+
+
+    .serimgdetail {
+        height: 810px;
+    }
+
+    .imgpara {
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .imgpara1 {
+        margin-top: 3em;
+    }
+
+
+    #imgpara01,
+    #astroCelebrations {
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 0.8em;
+
+    }
+
+    .imgdetails {
+        width: 100%;
+        height: auto;
+        padding: 0 5em 2em 10em;
+    }
+
+    .imgpara h5 {
+        width: 275px;
+        margin: 1.5em 0;
+    }
+
+
+    .imgdetails2 {
+        width: 405px;
+        height: 258px;
+        margin-right: 9em;
+
+    }
+
+
+    .imgdetails1 {
+        width: 405px;
+        height: 258px;
+        margin-top: 9em;
+        margin-left: 9em;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+
+    /* ========================BUSINESS START ==================*/
+
+
+
+    .serimgdetail100 {
+        height: 810px;
+    }
+
+    .imgpara100 {
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .imgpara1100 {
+        margin-top: 4em;
+    }
+
+
+    #imgpara01100,
+    #astroCelebrations100 {
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 0.8em;
+
+    }
+
+    .imgdetails100 {
+        width: 100%;
+        height: auto;
+        padding: 0 5em 2em 10em;
+    }
+
+    .imgpara100 h5 {
+        width: 275px;
+        margin: 1.5em 0;
+    }
+
+
+    .imgdetails0002100 {
+        width: 405px;
+        height: 258px;
+        margin-right: 9em;
+
+    }
+
+
+    .imgdetails0001100 {
+        width: 405px;
+        height: 258px;
+        margin-top: 9em;
+        margin-left: 9em;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+
+
+    /* ======================BUSINESS END============== */
+    /* ===========================PARTY START================= */
+
+
+
+    .partyimgdetail {
+        height: 810px;
+    }
+
+    .partyimgpara {
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .partyimgpara1 {
+        margin-top: 5em;
+    }
+
+
+    #partyimgpara2,
+    #astroCelebrations1 {
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 0.8em;
+
+    }
+
+    .partyimgdetails {
+        width: 100%;
+        height: auto;
+        padding: 0 5em 2em 10em;
+    }
+
+    .partyimgpara h5 {
+        width: 275px;
+        margin: 1.5em 0;
+    }
+
+
+    .imgdetails001 {
+        width: 405px;
+        height: 258px;
+        margin-right: 9em;
+
+    }
+
+
+    .imgdetails002 {
+        width: 405px;
+        height: 258px;
+        margin-top: 9em;
+        margin-left: 9em;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+
+
+
+
+    /* ===========================PARTY end================= */
+    /* ========================OTHERS START ==================*/
+
+
+
+    .serimgdetail-u {
+        height: 810px;
+    }
+
+    .imgpara-u {
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .imgpara1-u {
+        margin-top: 4em;
+    }
+
+
+    #imgpara1-u,
+    #astroCelebrations-u {
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 0.8em;
+
+    }
+
+    .imgdetails-u {
+        width: 100%;
+        height: auto;
+        padding: 0 5em 2em 10em;
+    }
+
+    .imgpara-u h5 {
+        width: 275px;
+        margin: 1.5em 0;
+    }
+
+
+    .imgdetails0-u {
+        width: 405px;
+        height: 258px;
+        margin-right: 9em;
+
+    }
+
+
+    .imgdetails1-u {
+        width: 405px;
+        height: 258px;
+        margin-top: 9em;
+        margin-left: 9em;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+
+
+    /* ======================OTHERS END============== */
+
+    /* SERVICES IMAGES END  */
+
+    /*----------------------------- SERVICES END---------------------------------- */
+
+    /* ---------------------------------------FQAS START----------------------------------------- */
+
+
+    .fqasimg2 {
+        font-size: 28px;
+    }
+
+    /* ========================================================== */
+
+    .detailfaqs h3 {
+        font-size: 21px;
+        font-weight: 900;
+    }
+
+    .detailfaqs p {
+        font-size: 14px;
+    }
+
+
+    /* -----------------------------------------FQAS END------------------------------------------*/
+
+
+    /* ==========================================FORM START */
+
+    .mainform-1 {
+        flex-wrap: nowrap;
+    }
+
+    .heading-1 {
+        width: 95%;
+        margin: 25px 0;
+    }
+
+    .form-1 {
+        margin-right: 0.5rem;
+    }
+
+    /*=================================== FORM END */
+
+    /* ==============================================FOOTER START =======================================*/
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 12px;
+    }
+
+    /* ====================================================FOOTER ENDS============================== */
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-****************--*****-- mobile phone--************************************************** */
+
+
+@media (min-width:320px) and (max-width:768px) {
+
+    /* LOGO START */
+    .logo_img img {
+        width: 330px;
+    }
+
+    /* LOGO END */
+    /* NAVBAR START */
+
+    .naviteam {
+        font-size: 10px;
+    }
+
+    /* NAVBAR END */
+    /* IMAGE SLIDER  START*/
+
+    .img_slider img {
+        width: 100%;
+        height: 25rem;
+        margin: 1rem 2rem;
+        object-fit: cover;
+        object-position: 80% 60%;
+    }
+
+    .image8 {
+        margin-top: 0.5rem;
+        padding: 0;
+    }
+
+    /* IMAGE STLIDER END */
+    /* EVENT START */
+
+    .event {
+        padding: 0.8rem 0.8rem;
+
+    }
+
+    .eventimg {
+        margin: 0.4rem 0.4rem;
+        flex-wrap: wrap;
+    }
+
+    .img9 img {
+        width: 100%;
+    }
+
+    .thevent {
+        text-align: center;
+    }
+
+
+    /* ----------------SECOND EVENT------------------------------------------- */
+
+
+
+    .event {
+        padding: 0.8rem 0.8rem;
+
+    }
+
+    .eventimg2 {
+        margin: 0.4rem 0.4rem;
+        flex-wrap: wrap;
+    }
+
+    .img10 img {
+        width: 100%;
+    }
+
+    .thevent2 {
+        text-align: center;
+    }
+
+    /* ----------------------THIRD EVENT------------------------------------------------ */
+
+
+
+    .event {
+        padding: 0.8rem 0.8rem;
+
+    }
+
+    .eventimg3 {
+        margin: 0.4rem 0.4rem;
+        flex-wrap: wrap;
+    }
+
+    .img11 img {
+        width: 100%;
+    }
+
+    .thevent3 {
+        text-align: center;
+    }
+
+    /* EVENT END */
+    /* FORM START */
+
+    .mainform-1 {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .heading-1 {
+        width: auto;
+        margin: 0 20px;
+    }
+
+    .form-1 {
+        margin: 0 2rem;
+        padding: 0.5;
+    }
+
+    .maindate-1 {
+        flex-wrap: wrap;
+
+    }
+
+
+    /* FORM END */
+
+    /* -----------------------------------ABOUT US START-------------------------------------------------------- */
+
+    /* IMG START */
+
+    .imgpraga {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+
+    .celeb1,
+    .celeb2 {
+        font-size: 16px;
+    }
+
+    .celeb3,
+    .celeb4 {
+        display: block;
+        font-size: 13px;
+        margin: 0.3rem;
+        text-align: center;
+        line-height: 20px;
+    }
+
+
+    /* IMG END */
+
+
+    /* -------------------------INDOOR START----------------------------- */
+    .indoordetail {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .indoordetail1,
+    .ulyellow {
+        font-size: 1rem;
+    }
+
+
+    .img1 {
+        flex-wrap: wrap;
+    }
+
+    .img1 img {
+        flex-wrap: wrap;
+        width: 240px;
+        height: 210px;
+    }
+
+
+    /*---------------------- INDOOR START ---------------------------------------*/
+
+
+
+    /* -------------------------OUTDOOR START----------------------------- */
+    .outdoordetail {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .outdoordetail1,
+    .ulyellow {
+        font-size: 1rem;
+    }
+
+    .img2 {
+        flex-wrap: wrap;
+    }
+
+    .img2 img {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 310px;
+    }
+
+
+    /*---------------------- OUTDOOR START ---------------------------------------*/
+
+
+
+
+    /* -------------------------OUTDOOR START----------------------------- */
+    .ktdoordetail {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .ktdoordetail1,
+    .ulyellow {
+        font-size: 1rem;
+    }
+
+    .img3 {
+        flex-wrap: wrap;
+    }
+
+    .img3 img {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 310px;
+    }
+
+
+    /*---------------------- OUTDOOR START ---------------------------------------*/
+
+
+    /* -------------------------DRESSING ROOM START----------------------------- */
+    .drdoordetail {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .drdoordetail1,
+    .ulyellow {
+        font-size: 1rem;
+    }
+
+    .img4 {
+        flex-wrap: wrap;
+    }
+
+    .img4 img {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 310px;
+    }
+
+
+    /*---------------------- DRESSING ROOM  START ---------------------------------------*/
+
+
+    /* -------------------------OTHER FEATURES START----------------------------- */
+    .otdoordetail {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .otdoordetail1,
+    .ulyellow {
+        font-size: 1rem;
+    }
+
+    .img5 {
+        flex-wrap: wrap;
+    }
+
+    .img5 img {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 310px;
+    }
+
+
+    /*---------------------- OTHER FEATURES START ---------------------------------------*/
+
+    /* -----------------------------------ABOUT US  END -------------------------------------------------------- */
+
+    /*---------------------------------SERVICES START--------------------------------------------- */
+
+    /* -----------------------------DETAIL START */
+
+
+    .detailstart {
+        padding: 4px;
+    }
+
+    .serdetail {
+        font-size: 16px;
+    }
+
+    .serdetail01,
+    .serdetail02 {
+        font-size: 11px;
+    }
+
+    /* ----------------------------------DETAIL END */
+
+    /* SERVICES IMAGES START */
+
+
+    .serimgdetail {
+        height: auto;
+    }
+
+    .imgpara {
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .imgpara1 {
+        margin-top: 3em;
+    }
+
+
+    #imgpara01,
+    #astroCelebrations {
+        width: 100%;
+        height: auto;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 0.8em;
+
+    }
+
+    .imgpara h5 {
+        width: 275px;
+        margin: 1.5em 0;
+    }
+
+    .imgdetails {
+        width: 100%;
+        height: auto;
+        padding: 0 5em 2em 10em;
+    }
+
+    .imgdetails2 {
+        width: 325px;
+        height: 195px;
+        margin-right: 9em;
+
+    }
+
+
+    .imgdetails1 {
+        width: 325px;
+        height: 196px;
+        margin-top: 6em;
+        margin-left: 6em;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+
+    /* ========================BUSINESS START ==================*/
+
+
+
+    .serimgdetail100 {
+        height: auto;
+    }
+
+    .imgpara100 {
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .imgpara1100 {
+        margin-top: 3em;
+    }
+
+
+    #imgpara01100,
+    #astroCelebrations100 {
+        width: 100%;
+        height: auto;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 0.8em;
+
+    }
+
+    .imgpara100 h5 {
+        width: 275px;
+        margin: 1.5em 0;
+    }
+
+    .imgdetails100 {
+        width: 100%;
+        height: auto;
+        padding: 0 5em 2em 10em;
+    }
+
+    .imgdetails0002100 {
+        width: 325px;
+        height: 195px;
+        margin-right: 9em;
+
+    }
+
+
+    .imgdetails0001100 {
+        width: 325px;
+        height: 196px;
+        margin-top: 6em;
+        margin-left: 6em;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+
+    /* ======================BUSINESS END============== */
+
+    /* ========================PARTY START ==================*/
+
+
+
+    .partyimgdetail {
+        height: auto;
+    }
+
+    .partyimgpara {
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .partyimgpara1 {
+        margin-top: 3em;
+    }
+
+
+    #partyimgpara2,
+    #astroCelebrations1 {
+        width: 100%;
+        height: auto;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 0.8em;
+
+    }
+
+    .partyimgpara h5 {
+        width: 275px;
+        margin: 1.5em 0;
+    }
+
+    .partyimgdetails {
+        width: 100%;
+        height: auto;
+        padding: 0 5em 2em 10em;
+    }
+
+    .imgdetails001 {
+        width: 325px;
+        height: 195px;
+        margin-right: 9em;
+
+    }
+
+
+    .imgdetails002 {
+        width: 325px;
+        height: 196px;
+        margin-top: 6em;
+        margin-left: 6em;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+
+    /* ======================PARTY END============== */
+
+
+    /* ========================OTHER START ==================*/
+
+
+    /* 
+    .serimgdetail-u {
+        height: auto;
+    } */
+
+    .imgpara-u {
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+
+    .imgpara1-u {
+        margin-top: 1.2em;
+    }
+
+
+    #imgpara1-u,
+    #astroCelebrations-u {
+        width: 100%;
+        height: auto;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 0.8em;
+
+    }
+
+    .imgpara-u h5 {
+        width: 275px;
+        margin: 1.5em 0;
+    }
+
+    .imgdetails-u {
+        width: 100%;
+        height: auto;
+        padding: 0 5em 2em 10em;
+    }
+
+    .imgdetails0-u {
+        width: 325px;
+        height: 195px;
+        margin-right: 9em;
+
+    }
+
+
+    .imgdetails1-u {
+        width: 325px;
+        height: 196px;
+        margin-top: 6em;
+        margin-left: 6em;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+
+    /* ======================OTHER END============== */
+
+    /* SERVICES IMAGES END */
+    /*----------------------------- SERVICES END---------------------------------- */
+
+
+    /* ---------------------------------------FQAS START----------------------------------------- */
+
+    .fqasimg2 {
+        font-size: 24px;
+    }
+
+    /* ========================================================== */
+
+    .detailfaqs h3 {
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+    .detailfaqs p {
+        font-size: 14px;
+    }
+
+    /* -----------------------------------------FQAS END------------------------------------------*/
+
+    /* -----------------------------------------BOOK END------------------------------------------*/
+
+    .mainform-2 {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .heading {
+        width: auto;
+        margin: 0 20px;
+    }
+
+    .form2 {
+        margin: 0 2rem;
+        padding: 0.5;
+    }
+
+    .maindate002 {
+        flex-wrap: wrap;
+
+    }
+
+
+    /* -----------------------------------------BOOK END------------------------------------------*/
+
+    /* ==============================================FOOTER START =======================================*/
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+        font-size: 10px;
+    }
+
+    /* ====================================================FOOTER ENDS============================== */
+
+
+}
