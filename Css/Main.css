@@ -275,11 +275,13 @@
 .thevent2 {
     text-align: left;
     padding: 1rem;
+    padding-bottom: 1rem;
     word-spacing: 2px;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
+    margin-bottom: 1rem;
 }
 
 /* IMAGE EVENT SECOND END */
@@ -433,7 +435,7 @@
     display: flex;
     justify-content: space-around;
     padding: 0.5rem 0;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .date-01 {
@@ -2624,15 +2626,54 @@
     }
 
     /* IMAGE STLIDER END */
-    /* EVENT START */
+    /* DETAIL START */
+
+
+
+    .detailiteam {
+        font-size: 24px;
+        padding: 1.5rem;
+    }
+
+    .featuredetail {
+        font-size: 15px;
+        text-align: justify;
+        margin: 0.5rem;
+    }
+
+    .ulyellow li {
+        font-size: 14px;
+    }
+
+    .eventheader p {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .eventitle p {
+        font-size: 16px;
+        text-align: justify;
+        padding: 0 1rem;
+        padding-bottom: 2rem;
+
+    }
+
+
+    /* DETAIL END */
+    /* EVENT START WEDDING */
+
 
     .event {
         padding: 0.8rem 0.8rem;
 
     }
 
+    .eventwedding {
+        font-size: 24px;
+    }
+
     .eventimg {
-        margin: 0.4rem 0.4rem;
+        margin: 0.2rem 0.2rem;
         flex-wrap: wrap;
     }
 
@@ -2642,10 +2683,13 @@
 
     .thevent {
         text-align: center;
+        font-size: 11px;
+        padding: 0 1rem;
+        line-height: 23px;
     }
 
 
-    /* ----------------SECOND EVENT------------------------------------------- */
+    /* ----------------SECOND EVENT--------BUSINESS------------------------- */
 
 
 
@@ -2654,8 +2698,12 @@
 
     }
 
+    .eventwedding2 {
+        font-size: 24px;
+    }
+
     .eventimg2 {
-        margin: 0.4rem 0.4rem;
+        margin: 0.2rem 0.2rem;
         flex-wrap: wrap;
     }
 
@@ -2665,9 +2713,12 @@
 
     .thevent2 {
         text-align: center;
+        font-size: 11px;
+        padding: 0 1rem;
+        line-height: 23px;
     }
 
-    /* ----------------------THIRD EVENT------------------------------------------------ */
+    /* ----------------------THIRD EVENT---------PARTIES-------------------- */
 
 
 
@@ -2676,8 +2727,12 @@
 
     }
 
+    .eventwedding3 {
+        font-size: 24px;
+    }
+
     .eventimg3 {
-        margin: 0.4rem 0.4rem;
+        margin: 0.2rem 0.2rem;
         flex-wrap: wrap;
     }
 
@@ -2687,13 +2742,16 @@
 
     .thevent3 {
         text-align: center;
+        font-size: 11px;
+        padding: 0 1rem;
+        line-height: 23px;
     }
 
     /* EVENT END */
     /* FORM START */
 
     .readyh1 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .mainform-1 {
@@ -2707,12 +2765,15 @@
         width: auto;
         margin: 0 20px;
         margin: 1rem 0;
+    }
 
+    .heading-1 p {
+        font-size: 19px;
     }
 
     .form-1 {
-        margin: 0 2rem;
-        padding: 0.5;
+        margin: 0 1.7rem;
+        padding: 0.5rem;
     }
 
     .maindate-1 {
@@ -2755,6 +2816,18 @@
 
     /* FORM END */
 
+    /* HAVE A QUESTION START */
+
+    .quet {
+        font-size: 15px;
+
+    }
+
+    .questdetail {
+        font-size: 11px;
+    }
+
+    /* HAVE A QUESTION END */
     /* -----------------------------------ABOUT US START-------------------------------------------------------- */
 
     /* IMG START */
