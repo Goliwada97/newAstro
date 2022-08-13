@@ -400,13 +400,10 @@
     margin: 8px 8px;
 }
 
-<<<<<<< HEAD
-=======
 .star {
     color: #fb0000;
 }
 
->>>>>>> 5101c07 (my repo not responding)
 .forminput-1 {
     background: rgba(221, 191, 128, 0.5);
     border: none;
@@ -436,11 +433,7 @@
     display: flex;
     justify-content: space-around;
     padding: 0.5rem 0;
-<<<<<<< HEAD
-=======
     flex-wrap: wrap;
->>>>>>> 5101c07 (my repo not responding)
-
 }
 
 .date-01 {
@@ -945,40 +938,29 @@
 }
 
 .imgdetails2 {
-<<<<<<< HEAD
     width: 443px;
     height: 296px;
     border-radius: 1.9rem;
     border: 1px solid#ffff99;
-=======
     max-width: 100%;
     height: 296px;
-    border-radius: 1.9rem;
-    border: 1px solid#ffff99;
     object-fit: cover;
     /* object-position: 80% 100%; */
->>>>>>> 5101c07 (my repo not responding)
 
 }
 
 .imgdetails1 {
     position: relative;
     position: absolute;
-<<<<<<< HEAD
     width: 443px;
-=======
     max-width: 443px;
->>>>>>> 5101c07 (my repo not responding)
     height: 296px;
     border-radius: 1.9rem;
     border: 1px solid#ffff99;
     margin: 8.5rem;
-<<<<<<< HEAD
-
-=======
     object-fit: cover;
     /* object-position: 80% 100%; */
->>>>>>> 5101c07 (my repo not responding)
+
 }
 
 .imgpara {
@@ -1063,40 +1045,28 @@
 }
 
 .imgdetails0002100 {
-<<<<<<< HEAD
     width: 443px;
-=======
     max-width: 100%;
->>>>>>> 5101c07 (my repo not responding)
     height: 296px;
     border-radius: 1.9rem;
     border: 1px solid#ffff99;
     /* margin-left: 11em; */
-<<<<<<< HEAD
-
-=======
     object-fit: cover;
     /* object-position: 70% 100%; */
->>>>>>> 5101c07 (my repo not responding)
+
 }
 
 .imgdetails0001100 {
     position: relative;
     position: absolute;
-<<<<<<< HEAD
     width: 443px;
-=======
     max-width: 443px;
->>>>>>> 5101c07 (my repo not responding)
     height: 296px;
     border-radius: 1.9rem;
     border: 1px solid#ffff99;
     margin: 8.5rem;
-<<<<<<< HEAD
-=======
     object-fit: cover;
     /* object-position: 70% 100%; */
->>>>>>> 5101c07 (my repo not responding)
 
 }
 
@@ -1180,39 +1150,30 @@
 
 .imgdetails001 {
     /* position: relative; */
-<<<<<<< HEAD
     width: 443px;
     height: 296px;
     border-radius: 1.9rem;
     border: 1px solid#ffff99;
-=======
     max-width: 100%;
     height: 296px;
     border-radius: 1.9rem;
     border: 1px solid#ffff99;
     object-fit: cover;
     /* object-position: 80% 100%; */
->>>>>>> 5101c07 (my repo not responding)
 
 }
 
 .imgdetails002 {
     position: relative;
     position: absolute;
-<<<<<<< HEAD
     width: 443px;
-=======
     max-width: 443px;
->>>>>>> 5101c07 (my repo not responding)
     height: 296px;
     border-radius: 1.9rem;
     border: 1px solid#ffff99;
     margin: 9rem;
-<<<<<<< HEAD
-=======
     object-fit: cover;
     /* object-position: 80% 100%; */
->>>>>>> 5101c07 (my repo not responding)
 }
 
 .partyimgpara {
@@ -1269,21 +1230,10 @@
     line-height: 25px;
 }
 
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 5101c07 (my repo not responding)
 /* PARTY END */
 /* OTHER START */
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 5101c07 (my repo not responding)
 .serimgdetail-u {
     display: flex;
     justify-content: space-around;
@@ -1303,42 +1253,29 @@
 }
 
 .imgdetails0-u {
-<<<<<<< HEAD
     width: 443px;
-=======
     max-width: 100%;
-    ;
->>>>>>> 5101c07 (my repo not responding)
+
     height: 296px;
     border-radius: 1.9rem;
     border: 1px solid#ffff99;
     /* margin-left: 11em; */
-<<<<<<< HEAD
-=======
     object-fit: cover;
     /* object-position: 80% 100%; */
->>>>>>> 5101c07 (my repo not responding)
 
 }
 
 .imgdetails1-u {
     position: relative;
     position: absolute;
-<<<<<<< HEAD
     width: 443px;
-=======
     max-width: 443px;
->>>>>>> 5101c07 (my repo not responding)
     height: 296px;
     border-radius: 1.9rem;
     border: 1px solid#ffff99;
     margin: 8.5rem;
-<<<<<<< HEAD
-=======
     object-fit: cover;
     /* object-position: 80% 100%; */
->>>>>>> 5101c07 (my repo not responding)
-
 }
 
 .imgpara-u {
@@ -1481,12 +1418,8 @@
     justify-content: space-around;
     /* flex-direction: column; */
     padding: 49px 49px;
-<<<<<<< HEAD
     flex-wrap: wrap;
-=======
     /* flex-wrap: wrap; */
->>>>>>> 5101c07 (my repo not responding)
-
 }
 
 .heading {
@@ -1535,13 +1468,10 @@
     margin: 8px 8px;
 }
 
-<<<<<<< HEAD
-=======
 .star1 {
     color: #fb0000;
 }
 
->>>>>>> 5101c07 (my repo not responding)
 .forminput {
     background: rgba(221, 191, 128, 0.5);
     border: none;
@@ -1637,65 +1567,36 @@
 /* BOOK END */
 /* FOOTER START  */
 
-<<<<<<< HEAD
 .container {
     display: grid;
     gap: 2rem;
     grid-template-columns: 40% 1fr 1fr;
     padding-top: 2rem;
-=======
-/* .container {
-    display: grid;
-    gap: 1rem;
-    padding-top: 2rem;
-    grid-template-columns: 1fr 1fr 1fr;
->>>>>>> 5101c07 (my repo not responding)
     justify-content: space-around;
     overflow: hidden;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-style: normal;
-<<<<<<< HEAD
     font-weight: 500;
     font-size: 16px;
     margin: 1rem;
 }
-=======
-    font-weight: 800;
-    font-size: 16px;
-    margin: 1rem;
-    width: 100%;
-} */
->>>>>>> 5101c07 (my repo not responding)
+
+.footer-center {
+    text-align: center;
+}
 
 
-
-
-<<<<<<< HEAD
 /* .container {
     display: block;
     display: flex;
     padding-top: 2rem;
     justify-content: space-around;
-=======
-.container {
-    display: flex;
-    padding-top: 2rem;
-    justify-content: space-between;
->>>>>>> 5101c07 (my repo not responding)
     overflow: hidden;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 16px;
     align-items: center;
-<<<<<<< HEAD
-=======
-    flex-wrap: wrap;
-}
-
-.footer-center {
-    text-align: center;
->>>>>>> 5101c07 (my repo not responding)
 }
 
 .container div {
@@ -1705,11 +1606,7 @@
     font-size: 1rem;
     text-align: center;
 
-<<<<<<< HEAD
 } */
-=======
-}
->>>>>>> 5101c07 (my repo not responding)
 
 .astro {
     text-align: center;
@@ -1888,38 +1785,29 @@
     #astroCelebrations {
         width: 100%;
         height: auto;
-<<<<<<< HEAD
         font-size: 18px;
         text-align: right;
         margin-top: 0.8em;
         line-height: 25px;
-=======
         font-size: 15px;
         text-align: right;
         margin-top: 0.8rem;
         line-height: 20px;
->>>>>>> 5101c07 (my repo not responding)
-
     }
 
 
     .imgpara h5 {
-<<<<<<< HEAD
         width: 275px;
         margin: 0.8em 0;
-=======
         width: 260px;
         margin: 1rem 0;
->>>>>>> 5101c07 (my repo not responding)
     }
 
 
+
     .imgdetails2 {
-<<<<<<< HEAD
         width: 405px;
-=======
         max-width: 405px;
->>>>>>> 5101c07 (my repo not responding)
         height: 258px;
         margin-right: 9em;
 
@@ -1927,11 +1815,8 @@
 
 
     .imgdetails1 {
-<<<<<<< HEAD
         width: 405px;
-=======
         max-width: 405px;
->>>>>>> 5101c07 (my repo not responding)
         height: 258px;
         margin-top: 9em;
         margin-left: 9em;
@@ -1965,50 +1850,38 @@
     #astroCelebrations100 {
         width: 100%;
         height: auto;
-<<<<<<< HEAD
         font-size: 18px;
         text-align: left;
         margin-top: 0.8em;
         line-height: 25px;
-=======
         font-size: 15px;
         text-align: left;
         margin-top: 0.8rem;
         line-height: 20px;
->>>>>>> 5101c07 (my repo not responding)
-
     }
 
 
     .imgpara100 h5 {
-<<<<<<< HEAD
         width: 275px;
         margin: 0.8em 0;
-=======
         width: 260px;
         margin: 1rem 0;
->>>>>>> 5101c07 (my repo not responding)
     }
 
 
     .imgdetails0002100 {
-<<<<<<< HEAD
         width: 405px;
-=======
         max-width: 405px;
->>>>>>> 5101c07 (my repo not responding)
         height: 258px;
         margin-right: 9em;
+
 
     }
 
 
     .imgdetails0001100 {
-<<<<<<< HEAD
         width: 405px;
-=======
         max-width: 405px;
->>>>>>> 5101c07 (my repo not responding)
         height: 258px;
         margin-top: 9em;
         margin-left: 9em;
@@ -2040,39 +1913,30 @@
     #astroCelebrations1 {
         width: 100%;
         height: auto;
-<<<<<<< HEAD
         font-size: 18px;
         text-align: right;
         margin-top: 0.8em;
         line-height: 25px;
-=======
         font-size: 15px;
         text-align: right;
         margin-top: 0.8rem;
         line-height: 20px;
 
->>>>>>> 5101c07 (my repo not responding)
-
     }
 
 
     .partyimgpara h5 {
-<<<<<<< HEAD
         width: 275px;
         margin: 0.8em 0;
-=======
         width: 260px;
         margin: 1rem 0;
->>>>>>> 5101c07 (my repo not responding)
+
     }
 
 
     .imgdetails001 {
-<<<<<<< HEAD
         width: 405px;
-=======
         max-width: 405px;
->>>>>>> 5101c07 (my repo not responding)
         height: 258px;
         margin-right: 9em;
 
@@ -2080,11 +1944,8 @@
 
 
     .imgdetails002 {
-<<<<<<< HEAD
         width: 405px;
-=======
         max-width: 405px;
->>>>>>> 5101c07 (my repo not responding)
         height: 258px;
         margin-top: 9em;
         margin-left: 9em;
@@ -2115,29 +1976,23 @@
     #astroCelebrations-u {
         width: 100%;
         height: auto;
-<<<<<<< HEAD
         font-size: 18px;
         text-align: left;
         margin-top: 0.8em;
         line-height: 25px;
-=======
         font-size: 15px;
         text-align: left;
         margin-top: 0.8rem;
         line-height: 20px;
-
->>>>>>> 5101c07 (my repo not responding)
 
     }
 
 
     .imgpara-u h5 {
         width: 275px;
-<<<<<<< HEAD
         margin: 0.8em 0;
-=======
         margin: 1rem 0;
->>>>>>> 5101c07 (my repo not responding)
+
     }
 
 
@@ -2202,34 +2057,17 @@
         margin: 1rem;
     }
 
-<<<<<<< HEAD
     /* ==================FORM END */
 
     /* ==============================================FOOTER START =======================================*/
     .container {
         grid-template-columns: repeat(3, 1fr);
-=======
-    .checkbox {
-        padding-left: 27px;
-        padding-top: 25px;
-    }
-
-
-    /* ==================FORM END */
-    /* ==============================================FOOTER START =======================================*/
-    .container {
-        grid-template-columns: repeat(3, 1fr);
-        margin: 3rem;
->>>>>>> 5101c07 (my repo not responding)
         font-size: 18px;
     }
 
     /* ====================================================FOOTER ENDS============================== */
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 5101c07 (my repo not responding)
 }
 
 
@@ -2238,14 +2076,6 @@
 
 
 
-<<<<<<< HEAD
-=======
-
-
-
-
-
->>>>>>> 5101c07 (my repo not responding)
 /* -*********************************************--ipad----********************************************/
 
 @media(min-width:768px) and (max-width:1024px) {
@@ -2705,30 +2535,21 @@
 
     /* ==========================================FORM START */
 
-<<<<<<< HEAD
     .mainform-1 {
         flex-wrap: nowrap;
     }
 
     .heading-1 {
-=======
-    .mainform2 {
-        flex-wrap: nowrap;
-    }
-
-    .heading {
->>>>>>> 5101c07 (my repo not responding)
         width: 95%;
         margin: 25px 0;
     }
 
-<<<<<<< HEAD
+
     .form-1 {
         margin-right: 0.5rem;
     }
 
-=======
-    .form2 {
+    form2 {
         margin-right: 0.5rem;
     }
 
@@ -2737,7 +2558,7 @@
         padding-top: 25px;
     }
 
->>>>>>> 5101c07 (my repo not responding)
+
     /*=================================== FORM END */
 
     /* ==============================================FOOTER START =======================================*/
@@ -2870,40 +2691,32 @@
 
     /* EVENT END */
     /* FORM START */
-<<<<<<< HEAD
-=======
+
     .readyh1 {
         font-size: 22px;
     }
->>>>>>> 5101c07 (my repo not responding)
 
     .mainform-1 {
         flex-wrap: wrap;
         padding: 0;
-<<<<<<< HEAD
-=======
         /* width: 320px; */
->>>>>>> 5101c07 (my repo not responding)
+
     }
 
     .heading-1 {
         width: auto;
-<<<<<<< HEAD
         margin: 0 20px;
-=======
         margin: 1rem 0;
->>>>>>> 5101c07 (my repo not responding)
+
     }
 
     .form-1 {
         margin: 0 2rem;
-<<<<<<< HEAD
         padding: 0.5;
     }
 
     .maindate-1 {
         flex-wrap: wrap;
-=======
         padding: 0.5rem;
         /* width: 300px; */
     }
@@ -2936,7 +2749,6 @@
     #submit-1 {
         margin: 0.2rem 0 0.8rem 0;
         width: 85px;
->>>>>>> 5101c07 (my repo not responding)
 
     }
 
@@ -3135,48 +2947,41 @@
     }
 
     .imgpara1 {
-<<<<<<< HEAD
         margin-top: 3em;
-=======
         margin-top: 4em;
         max-width: 100%;
         font-size: 16px;
->>>>>>> 5101c07 (my repo not responding)
+
     }
 
 
     #imgpara01,
     #astroCelebrations {
-<<<<<<< HEAD
         width: 100%;
         height: auto;
         font-size: 10px;
         text-align: center;
         margin-top: 0.8em;
-=======
         max-width: 100%;
         height: auto;
         font-size: 10px;
         text-align: justify;
         margin-top: 0.8rem;
         padding: 0 1.8rem;
->>>>>>> 5101c07 (my repo not responding)
+
 
     }
 
     .imgpara h5 {
         width: 275px;
-<<<<<<< HEAD
         margin: 1.5em 0;
-=======
         margin: 1.5rem 0;
->>>>>>> 5101c07 (my repo not responding)
+
     }
 
     .imgdetails {
         width: 100%;
         height: auto;
-<<<<<<< HEAD
         padding: 0 5em 2em 10em;
     }
 
@@ -3184,28 +2989,26 @@
         width: 325px;
         height: 195px;
         margin-right: 9em;
-=======
         padding: 0 10rem 2rem 7.5rem;
+
     }
+
 
     .imgdetails2 {
         max-width: 100%;
         height: 145px;
         margin-right: 9rem;
->>>>>>> 5101c07 (my repo not responding)
-
     }
 
 
+
     .imgdetails1 {
-<<<<<<< HEAD
         width: 325px;
         height: 196px;
         margin-top: 6em;
         margin-left: 6em;
         margin-right: 0;
         margin-bottom: 0;
-=======
         max-width: 40vmin;
         height: 146px;
         margin-top: 6rem;
@@ -3215,7 +3018,6 @@
         /* margin: 0 10rem 2rem 10rem; */
         /* z-index: -1; */
 
->>>>>>> 5101c07 (my repo not responding)
     }
 
 
@@ -3234,13 +3036,10 @@
     }
 
     .imgpara1100 {
-<<<<<<< HEAD
         margin-top: 3em;
-=======
         margin-top: 4em;
         max-width: 100%;
         font-size: 16px;
->>>>>>> 5101c07 (my repo not responding)
     }
 
 
@@ -3249,14 +3048,12 @@
         width: 100%;
         height: auto;
         font-size: 10px;
-<<<<<<< HEAD
         text-align: center;
         margin-top: 0.8em;
-=======
         text-align: justify;
         margin-top: 0.8rem;
         padding: 0 1.8rem;
->>>>>>> 5101c07 (my repo not responding)
+
 
     }
 
@@ -3268,34 +3065,28 @@
     .imgdetails100 {
         width: 100%;
         height: auto;
-<<<<<<< HEAD
         padding: 0 5em 2em 10em;
     }
 
     .imgdetails0002100 {
         width: 325px;
         height: 195px;
-=======
         padding: 0 10rem 2em 7.5rem;
     }
 
     .imgdetails0002100 {
         max-width: 100%;
         height: 145px;
->>>>>>> 5101c07 (my repo not responding)
         margin-right: 9em;
 
     }
 
 
     .imgdetails0001100 {
-<<<<<<< HEAD
         width: 325px;
         height: 196px;
-=======
         max-width: 40vmin;
         height: 146px;
->>>>>>> 5101c07 (my repo not responding)
         margin-top: 6em;
         margin-left: 6em;
         margin-right: 0;
@@ -3306,8 +3097,6 @@
     /* ======================BUSINESS END============== */
 
     /* ========================PARTY START ==================*/
-
-
 
     .partyimgdetail {
         height: auto;
@@ -3320,13 +3109,11 @@
     }
 
     .partyimgpara1 {
-<<<<<<< HEAD
         margin-top: 3em;
-=======
         margin-top: 4em;
         max-width: 100%;
         font-size: 16px;
->>>>>>> 5101c07 (my repo not responding)
+
     }
 
 
@@ -3335,14 +3122,11 @@
         width: 100%;
         height: auto;
         font-size: 10px;
-<<<<<<< HEAD
         text-align: center;
         margin-top: 0.8em;
-=======
         text-align: justify;
         margin-top: 0.8em;
         padding: 0 1.8rem;
->>>>>>> 5101c07 (my repo not responding)
 
     }
 
@@ -3354,34 +3138,28 @@
     .partyimgdetails {
         width: 100%;
         height: auto;
-<<<<<<< HEAD
         padding: 0 5em 2em 10em;
     }
 
     .imgdetails001 {
         width: 325px;
         height: 195px;
-=======
         padding: 0 10rem 2rem 7.5rem;
     }
 
     .imgdetails001 {
         max-width: 100%;
         height: 145px;
->>>>>>> 5101c07 (my repo not responding)
         margin-right: 9em;
 
     }
 
 
     .imgdetails002 {
-<<<<<<< HEAD
         width: 325px;
         height: 196px;
-=======
         max-width: 40vmin;
         height: 146px;
->>>>>>> 5101c07 (my repo not responding)
         margin-top: 6em;
         margin-left: 6em;
         margin-right: 0;
@@ -3395,17 +3173,14 @@
     /* ========================OTHER START ==================*/
 
 
-<<<<<<< HEAD
     /* 
     .serimgdetail-u {
         height: auto;
     } */
-=======
+
     .serimgdetail-u {
         height: auto;
     }
-
->>>>>>> 5101c07 (my repo not responding)
 
     .imgpara-u {
         text-align: center;
@@ -3414,13 +3189,11 @@
     }
 
     .imgpara1-u {
-<<<<<<< HEAD
         margin-top: 1.2em;
-=======
         margin-top: 4em;
         max-width: 100%;
         font-size: 16px;
->>>>>>> 5101c07 (my repo not responding)
+
     }
 
 
@@ -3429,15 +3202,11 @@
         width: 100%;
         height: auto;
         font-size: 10px;
-<<<<<<< HEAD
         text-align: center;
         margin-top: 0.8em;
-=======
         text-align: justify;
         margin-top: 0.8em;
         padding: 0 1.8rem;
->>>>>>> 5101c07 (my repo not responding)
-
     }
 
     .imgpara-u h5 {
@@ -3448,39 +3217,34 @@
     .imgdetails-u {
         width: 100%;
         height: auto;
-<<<<<<< HEAD
         padding: 0 5em 2em 10em;
     }
 
     .imgdetails0-u {
         width: 325px;
         height: 195px;
-=======
         padding: 0 10rem 2rem 7.5rem;
     }
 
     .imgdetails0-u {
         max-width: 100%;
         height: 145px;
->>>>>>> 5101c07 (my repo not responding)
         margin-right: 9em;
 
     }
 
 
     .imgdetails1-u {
-<<<<<<< HEAD
         width: 325px;
         height: 196px;
-=======
         max-width: 40vmin;
         height: 146px;
->>>>>>> 5101c07 (my repo not responding)
         margin-top: 6em;
         margin-left: 6em;
         margin-right: 0;
         margin-bottom: 0;
     }
+
 
 
     /* ======================OTHER END============== */
@@ -3510,7 +3274,6 @@
 
     /* -----------------------------------------BOOK END------------------------------------------*/
 
-<<<<<<< HEAD
     .mainform-2 {
         flex-wrap: wrap;
         padding: 0;
@@ -3519,29 +3282,11 @@
     .heading {
         width: auto;
         margin: 0 20px;
-=======
-
-
-
-
-
-
-    .mainform2 {
-        flex-wrap: wrap;
-        padding: 0;
-        /* width: 320px; */
-    }
-
-    .heading {
-        width: 100%;
-        margin: 1rem 0;
->>>>>>> 5101c07 (my repo not responding)
     }
 
     .form2 {
         margin: 0 2rem;
         padding: 0.5;
-<<<<<<< HEAD
     }
 
     .maindate002 {
@@ -3549,11 +3294,24 @@
 
     }
 
-=======
-        width: auto;
+
+    .heading {
+        width: 100%;
+        margin: 1rem 0;
     }
 
-    #input0,
+    .form2 {
+        margin: 0 2rem;
+        padding: 0.5;
+
+    }
+
+    .maindate002 {
+        flex-wrap: wrap;
+
+    }
+
+    input0,
     .date010,
     .input label {
         font-size: 11px;
@@ -3583,18 +3341,13 @@
         width: 85px;
 
     }
->>>>>>> 5101c07 (my repo not responding)
+
 
     /* -----------------------------------------BOOK END------------------------------------------*/
 
     /* ==============================================FOOTER START =======================================*/
     .container {
-<<<<<<< HEAD
         grid-template-columns: repeat(3, 1fr);
-        font-size: 10px;
-    }
-
-=======
         font-size: 10px;
     }
 
@@ -3602,7 +3355,7 @@
         margin: 1rem;
     }
 
->>>>>>> 5101c07 (my repo not responding)
+
     /* ====================================================FOOTER ENDS============================== */
 
 
