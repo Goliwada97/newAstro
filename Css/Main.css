@@ -1263,7 +1263,7 @@
 .imgdetails1-u {
     position: relative;
     position: absolute;
-    max-width: 443px;
+    max-width: 426px;
     height: 296px;
     border-radius: 1.9rem;
     border: 1px solid#ffff99;
@@ -1412,8 +1412,8 @@
     justify-content: space-around;
     /* flex-direction: column; */
     padding: 49px 49px;
-    flex-wrap: wrap;
     /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .heading {
@@ -2540,7 +2540,8 @@
     /* ==========================================FORM START */
 
     .mainform-1 {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
+
     }
 
     .heading-1 {
@@ -2553,7 +2554,7 @@
         margin-right: 0.5rem;
     }
 
-    form2 {
+    .form2 {
         margin-right: 0.5rem;
     }
 
@@ -3285,7 +3286,7 @@
     }
 
     .imgdetails0-u {
-        min-width: 59vmax;
+        max-width: 59vmin;
         height: 200px;
         margin-right: 6rem;
         object-fit: cover;
@@ -3297,8 +3298,8 @@
         max-width: 56vmin;
         height: 200px;
         margin: 6rem 6rem 2rem 4.5rem;
+        object-position: 40% 100%;
         object-fit: cover;
-        /* object-position: 40% 100%; */
     }
 
 
@@ -3337,7 +3338,7 @@
     /* -----------------------------------------BOOK END------------------------------------------*/
 
     .mainform-2 {
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         padding: 0;
     }
 
@@ -3373,7 +3374,7 @@
 
     }
 
-    input0,
+    #input0,
     .date010,
     .input label {
         font-size: 11px;
@@ -3385,9 +3386,9 @@
         font-size: 12px;
     }
 
-    .dates {
+    /* .dates {
         display: block;
-    }
+    } */
 
     .date010 {
         width: 54px;
