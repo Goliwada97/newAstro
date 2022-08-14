@@ -1563,11 +1563,11 @@
 
 .container {
     display: grid;
-    gap: 2rem;
+    gap: 1rem;
     grid-template-columns: 40% 1fr 1fr;
-    padding-top: 2rem;
-    justify-content: space-around;
-    overflow: hidden;
+    padding-top: 1rem;
+    justify-content: space-between;
+    overflow: auto;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -1576,11 +1576,15 @@
 }
 
 .footer-center {
-    text-align: center;
+
+    display: block;
+    /* text-align: center; */
+    margin: 1rem;
+
 }
 
-
-/* .container {
+/* 
+.container {
     display: block;
     display: flex;
     padding-top: 2rem;
@@ -2056,8 +2060,9 @@
     /* ==============================================FOOTER START =======================================*/
     .container {
         grid-template-columns: repeat(3, 1fr);
-        font-size: 18px;
+
     }
+
 
     /* ====================================================FOOTER ENDS============================== */
 
@@ -2539,8 +2544,8 @@
 
     /* ==========================================FORM START */
 
-    .mainform-1 {
-        flex-wrap: wrap;
+    .mainform2 {
+        flex-wrap: nowrap;
 
     }
 
@@ -2555,6 +2560,7 @@
     }
 
     .form2 {
+        padding: 0.5rem;
         margin-right: 0.5rem;
     }
 
@@ -2569,7 +2575,7 @@
     /* ==============================================FOOTER START =======================================*/
     .container {
         grid-template-columns: repeat(3, 1fr);
-        font-size: 12px;
+
     }
 
     /* ====================================================FOOTER ENDS============================== */
@@ -3348,8 +3354,7 @@
     }
 
     .form2 {
-        margin: 0 2rem;
-        padding: 0.5;
+        margin: 0 1rem;
     }
 
     .maindate002 {
@@ -3411,13 +3416,17 @@
     /* ==============================================FOOTER START =======================================*/
     .container {
         grid-template-columns: repeat(3, 1fr);
-        font-size: 10px;
     }
 
     .footer-center {
-        margin: 1rem;
+        max-width: 40vh;
+        margin: 0rem;
+        font-size: 10px;
     }
 
+    .astro {
+        font-size: 11px;
+    }
 
     /* ====================================================FOOTER ENDS============================== */
 
